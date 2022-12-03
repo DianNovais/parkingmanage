@@ -1,0 +1,29 @@
+:root{
+  --body-color-gradient: linear-gradient(130deg, #070019 60%, #211936);
+  --parking-option-gradient: linear-gradient(130deg, rgba(158, 255, 255, 0.829), rgba(0, 255, 255, 0.829) 60%, rgba(158, 255, 255, 0.829));
+  --parking-option: rgba(0, 255, 255, 0.829);
+}
+
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  background: var(--body-color-gradient);
+  max-width: 100%;
+}
+
+*::-webkit-scrollbar{
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.display_none{
+  display: none;
+}

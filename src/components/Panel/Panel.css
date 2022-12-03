@@ -1,0 +1,43 @@
+.panel_container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    width: 300px;
+    height: 63vh;
+    max-height: 63vh;
+    overflow-y: scroll;
+}
+
+
+
+.panel_container table{
+    color: #fff;
+}
+
+
+.panel_container td, .panel_container th{
+    border: 1px solid #fff;
+}
+
+.panel_container th:nth-child(1){
+    width: 60px;
+}
+
+.td_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.panel_container thead, .panel_container tbody, th, td, tr{
+    flex: none;    
+}
+
+.free_vagancy{
+    background-color: rgba(2, 212, 48, 0.705);
+}
+
+.icon_free{
+    color: rgba(2, 212, 48, 0.705);
+    cursor: pointer;
+}
